@@ -33,3 +33,99 @@ body{
 }
 
 /* navbar part css end */
+
+/* banner part css start  */
+.carousel-caption {
+   bottom: 25.25rem;
+}
+
+.carousel-caption h2{
+	font-size: 120px;
+	position: relative;
+	font-weight: bold;
+}
+
+.carousel-caption h2::after{
+	position: absolute;
+	content: "";
+	width: 45%;
+	height: 2px;
+	background-color: #15a4fa;
+	bottom: 0px;
+	left: 27%;
+}
+
+.carousel-caption p{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif; 
+	margin-top: 15px;
+}
+
+.carousel-caption button {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #15a4fa;
+	border-radius: 4px;
+	background: none;
+	color: white;
+	margin-top: 30px;
+	transition: all linear .3s;
+	font-size: 18px;
+}
+
+.carousel-caption button:hover{
+	background-color: #15a4fa;
+	transition: all linear .3s;
+}
+
+.carousel-item img{
+	height: px;
+}
+.carousel-control-prev, .carousel-control-next{
+	visibility: hidden;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.carousel-indicators {
+    bottom: -12px;
+}
+
+
+/* banner part css end */
+
+
+/* design part css start  */
+#design_part{
+	text-align: center;
+	padding: 80px 0;
+	background-color: #f6f9f9;
+}
+
+#design_part .commond_heading h4{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+/* design part css end */
+
+
+/* design content part css start  */
+#design_content{
+	padding: 66px 0;
+	text-align: center;
+}
+
+.design_content_img{
+	
+}
+
+.design_content_text h5{
+ 
+}
+/* design content part css end */
