@@ -121,11 +121,195 @@ body{
 	text-align: center;
 }
 
-.design_content_img{
+.design_content_img img{
+	margin-bottom: 30px;
 	
 }
 
 .design_content_text h5{
- 
+	font-size: 22px;
+}
+.design_content_text p{
+	font-size: 15px;
 }
 /* design content part css end */
+
+/* gallery part css start  */
+#gallery{
+	text-align: center;
+	padding: 50px 0 70px;
+	background-color: #f6f9f9;
+}
+
+#gallery .common_heading{
+	text-align: center;
+	margin: 70px 0;
+}
+
+.gallery_img{
+	position: relative;
+	margin-bottom: 20px;
+	
+}
+
+
+
+.gallery_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #2cacf7;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+
+}
+
+.gallery_overlay a{
+	margin: 0 10px;
+	border: 1px solid white;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	background-color: none;
+
+}
+
+.gallery_overlay a:hover{
+	background-color: white;
+	
+}
+
+.gallery_overlay a:hover span{
+	color: #15a4fa;
+}
+
+
+.gallery_overlay a span{
+	color: white;
+}
+
+.gallery_img:hover .gallery_overlay{
+	visibility: visible;
+
+}
+/* gallery part css end  */
+
+
+/* form section css start  */
+#form_section{
+	background: url(../images/form_overlay.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 0 100px;
+}
+#form_section .common_heading{
+	text-align: center;
+}
+
+#form_section .common_heading h4{
+	font-size: 30px;
+	color: #fff;
+}
+
+#form_section .common_heading p{
+	font-size: 16px;
+	color: #999999;
+}
+
+.form_main{
+	position: relative;
+}
+
+.form_main form input[type=text], .form_main form input[type=email]{
+	display: inline-block;
+	width: 100%;
+	margin: 8px 0;
+	padding: 14px 20px;
+	background: none;
+	border: 1px solid #999999;
+	color: #999999;
+	border-radius: 4px;
+} 
+
+.form_main form textarea{
+	display: inline-block;
+	width: 100%;
+	margin: 8px 0 20px;
+	padding: 14px 20px;
+	background: none;
+	border: 1px solid #999999;
+	color: #999999;
+	border-radius: 4px;
+}
+
+.form_main form input[type=checkbox]{
+	cursor:pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	bottom: 1px;
+}
+
+.form_main form input[type=checkbox] + label{
+	color: white;
+	font-size: 15px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.form_main form input[type=submit]{
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+	background: none;
+	color: white;
+	border: 1px solid #15a4fa;
+}
+
+.form_main form input[type=submit]:hover{
+	background-color: #15a4fa;
+}
+/* form section css end */
+
+/* footer part css start  */
+footer{
+	padding: 20px 0;
+}
+
+.footer_content{
+	margin-top: 15px;
+	color: #999999;
+}
+.footer_social{
+	display: flex;
+	justify-content: flex-end;
+    
+}
+
+.footer_social a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #15a4fa;
+	margin: 0 5px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 2px;
+}
+/* footer part css end */
+
+
