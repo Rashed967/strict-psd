@@ -3,7 +3,122 @@
 
 /* // extra Small devices */
 @media (min-width: 320px) and (max-width: 575px) { 
+   /* carosel indicator start  */
+   .carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 0 5px;
+    }
+   /* carosel indicator end */
 
+   /* design part common heading start  */
+   #design_part .commond_heading h4{
+    font-size: 23px;
+   }
+
+   #design_part .common_heading_content p{
+    font-size: 14px;
+    text-align: justify;
+   }
+   /* design part common heading end */
+
+   /* desgin part content start  */
+   #design_part{
+	padding: 50px 0;
+}
+
+    .design_content_img img{
+        margin-bottom: 15px;
+    }
+
+    .design_content_text h5{
+        font-size: 20px;
+    }
+    .design_content_text p{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+   /* desgin part content end */
+
+
+   /* gallery common heading part start  */
+    #gallery{
+        padding: 25px 0 50px;
+    }
+
+    #gallery .common_heading{
+        margin: 50px 0;
+    }
+
+    #gallery .common_heading h3{
+        font-size: 20px;
+    }
+    #gallery .common_heading p{
+        font-size: 14px;
+    }
+   /* gallery common heading part end */
+
+   /* form section start  */
+    #form_section{
+        padding: 60px 0 70px;
+    }
+
+    #form_section .common_heading h4{
+        font-size: 24px;
+    }
+
+    #form_section .common_heading p{
+        font-size: 14px;
+    }
+
+    .form_main form input[type=checkbox]{
+        width: 15px;
+        height: 15px;
+        bottom: 2px;
+    }
+    
+    .form_main form input[type=checkbox] + label{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    
+    .form_main form input[type=submit]{
+        bottom: 2;
+        width: 100px;
+        height: 40px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+   /* form section end */
+
+   /* footer part start  */
+    footer{
+        padding: 15px 0 20px;
+    }
+
+    .footer_content{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer_social{
+        justify-content: center;
+        
+    }
+
+    .footer_social a{
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+   /* footer part end */
  }
 
 
