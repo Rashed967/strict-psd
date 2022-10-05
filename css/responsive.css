@@ -124,17 +124,139 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
+     /* carosel indicator start  */
+   .carousel-indicators [data-bs-target] {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin: 0 7px;
+    }
+   /* carosel indicator end */
+
+   /* design part common heading start  */
+   #design_part .commond_heading h4{
+    font-size: 26px;
+   }
+
+   #design_part .common_heading_content p{
+    font-size: 16px;
+    text-align: center;
+   }
+   /* design part common heading end */
+
+   /* desgin part content start  */
+    #design_part{
+        padding: 70px 0;
+    }
+
+   /* desgin part content end */
+
+   /* gallery common heading part start  */
+    #gallery{
+        padding: 25px 0 50px;
+    }
+
+    #gallery .common_heading{
+        margin: 30px 0 50px;
+    }
+
+    #gallery .common_heading h3{
+        font-size: 26px;
+    }
+    #gallery .common_heading p{
+        font-size: 18px;
+    }
+    /* gallery common heading part end */
+
+       /* footer part start  */
+       footer{
+        padding: 15px 0 20px;
+    }
+
+    .footer_content{
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .footer_social{
+        justify-content: end;
+        
+    }
+
+    .footer_social a{
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+        line-height: 45px;
+        font-size: 15px;
+    }
+   /* footer part end */
+
+   
 
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
+          /* desgin part content start  */
+    #design_part{
+        padding: 50px 0;
+        
 
+        .design_content_img img{
+            margin-bottom: 15px;
+        }
+
+        .design_content_text h5{
+            font-size: 25px;
+        }
+        .design_content_text p{
+            font-size: 16px;
+            text-align: justify;
+        }
+   /* desgin part content end */
+
+      /* gallery common heading part start  */
+      #gallery{
+        padding: 25px 0 50px;
+    }
+
+    #gallery .common_heading{
+        margin: 15px 0 10px;
+    }
+
+    /* gallery common heading part end */
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
-
+    /* .carousel-caption {
+        bottom: 200px;
+     }
+     
+     .carousel-caption h2{
+         font-size: 50px;
+     }
+     
+     .carousel-caption h2::after{
+         width: 45%;
+         height: 2px;
+         bottom: -5px;
+         left: 27%;
+     }
+     
+     .carousel-caption p{
+         margin-top: 15px;
+     }
+     
+     .carousel-caption button {
+         width: 110px;
+         height: 45px;
+         border: 2px solid #15a4fa;
+         margin-top: 60px;
+         font-size: 14px;
+         margin-bottom: 200px;
+     } */
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
